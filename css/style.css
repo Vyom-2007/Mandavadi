@@ -847,6 +847,31 @@ header.scrolled .logo-img {
     box-shadow: 0 4px 15px rgba(228, 168, 27, 0.3);
 }
 
+/* Brand Logo Colors & Glow Animations */
+.bms-icon {
+    color: #ec1c24 !important;
+}
+.booking-card:hover .bms-icon {
+    color: #ff3c43 !important;
+    filter: drop-shadow(0 2px 10px rgba(236, 28, 36, 0.5)) !important;
+}
+
+.district-icon {
+    color: #e23744 !important;
+}
+.booking-card:hover .district-icon {
+    color: #ff4f5c !important;
+    filter: drop-shadow(0 2px 10px rgba(226, 55, 68, 0.5)) !important;
+}
+
+.allevents-icon {
+    color: #0284c7 !important;
+}
+.booking-card:hover .allevents-icon {
+    color: #38bdf8 !important;
+    filter: drop-shadow(0 2px 10px rgba(2, 132, 199, 0.5)) !important;
+}
+
 /* ==========================================
    GALLERY (MOMENTS) SECTION
    ========================================== */
