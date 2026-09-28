@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /blog/
+
+# Disallow internal search query parameters to prevent crawl bloat
+Disallow: /*?s=*
+Disallow: /*?search=*
+
+Sitemap: https://mandavadi.com/sitemap.xml
